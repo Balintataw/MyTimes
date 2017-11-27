@@ -1,8 +1,8 @@
 /* header */
-div {
+/*div {
   border: 1px solid black;
 }
-
+*/
 body {
   margin: 0 auto;
 }
@@ -18,6 +18,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
+  background-color: white;
 }
 
 .logo {
@@ -74,6 +75,11 @@ a {
   width: 240px;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
 .image-content {
   height: 300px;
   font-family: Georgia;
@@ -108,4 +114,66 @@ a {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 12px;
+}
+
+.news-bites h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.news-bites .bite {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+}
+
+/* footer content */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.title {
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 25px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
 }
